@@ -57,7 +57,12 @@ ScrollReveal({
 	distance: '100px',
 	duration: 2500,
 	delay: 200,
+	mobile: false
 })
+
+// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE 
+// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE 
+// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE 
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' })
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' })
@@ -72,5 +77,5 @@ const typed = new Typed('.multiple-text', {
 	typeSpeed: 100,
 	backSpeed: 50,
 	backDelay: 1000,
-	// loop: true
+	loop: true
 })
