@@ -42,7 +42,7 @@ window.onscroll = () => {
 	// ---------------------------------------STICKY NAVBAR---------------------------------------------------------------------------
 	let header = document.querySelector('.header')
 
-	header.classList.toggle('sticky', window.scrollY > 100)
+	header.classList.toggle('sticky', window.scrollY > 500)
 
 	// REMOVE TOGGLE ICON AND NAVBAR WHEN CLICK NAVBAR LINK - SROLL
 
@@ -57,25 +57,24 @@ ScrollReveal({
 	distance: '100px',
 	duration: 2500,
 	delay: 200,
-	mobile: false
+	mobile: false,
 })
 
-// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE 
-// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE 
-// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE 
+// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE
+// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE
+// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' })
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' })
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' })
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' })
 
-
-// TYPED JS 
+// TYPED JS
 
 const typed = new Typed('.multiple-text', {
 	strings: ['I am Frontend Developer', 'YOUR next employee', `You can't miss it ! `],
 	typeSpeed: 100,
 	backSpeed: 50,
 	backDelay: 1000,
-	loop: true
+	loop: true,
 })
