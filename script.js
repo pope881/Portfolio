@@ -65,7 +65,7 @@ ScrollReveal({
 // SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' })
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' })
+ScrollReveal().reveal('.home-img, .skills-container, .portfolio-box, .contact form', { origin: 'bottom' })
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' })
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' })
 
@@ -78,3 +78,12 @@ const typed = new Typed('.multiple-text', {
 	backDelay: 1000,
 	loop: true,
 })
+
+
+//GET FULL YEAR
+let copyrightText = document.querySelector('.copyright-text')
+console.log(copyrightText);
+
+const newDate =  new Date().getFullYear()
+console.log(newDate);
+// copyrightText.textContent = 

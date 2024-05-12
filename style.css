@@ -130,8 +130,8 @@ span {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	width: 4rem;
-	height: 4rem;
+	width: 6rem;
+	height: 6rem;
 	background: transparent;
 	border: 0.2rem solid var(--main-color);
 	border-radius: 50%;
@@ -139,6 +139,10 @@ span {
 	color: var(--main-color);
 	margin: 3rem 1.5rem 3rem 0;
 	transition: 0.5s ease;
+}
+
+.social-media a i {
+	font-size: 4rem;
 }
 
 .home-content .social-media a:hover {
@@ -205,7 +209,8 @@ span {
 	/* justify-content: space-between; */
 	width: 100%;
 	gap: 2rem;
-	padding: 2rem;
+	padding: 1rem;
+	margin-bottom: 2rem;
 }
 
 .skills-container .skillIcon {
@@ -213,11 +218,11 @@ span {
 	height: 10%;
 }
 
-.services h2 {
+.skills h2 {
 	margin-bottom: 5rem;
 }
 
-.services-container {
+.skills-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -225,7 +230,7 @@ span {
 	gap: 2rem;
 }
 
-.services-container .services-box {
+.skills-container .skills-box {
 	background: var(--second-bg-color);
 	padding: 3rem 2rem 3rem;
 	border-radius: 2rem;
@@ -235,21 +240,21 @@ span {
 	width: 100%;
 }
 
-.services-container .services-box:hover {
+.skills-container .skills-box:hover {
 	border-color: var(--main-color);
 	transform: scale(1.1);
 }
 
-.services-box i {
+.skills-box i {
 	font-size: 7rem;
 	color: var(--main-color);
 }
 
-.services-box h3 {
+.skills-box h3 {
 	font-size: 3.6rem;
 }
 
-.services-box li {
+.skills-box li {
 	margin: 1rem;
 	font-size: 1.6rem;
 	text-align: left;
@@ -337,7 +342,7 @@ span {
 }
 
 .portfolio-layer a i {
-	font-size: 2rem;
+	font-size: 3rem;
 	color: var(--second-bg-color);
 }
 
@@ -431,7 +436,7 @@ span {
 		padding: 10rem 3% 2rem;
 	}
 
-	.services {
+	.skills {
 		padding-bottom: 7rem;
 	}
 
@@ -501,7 +506,7 @@ span {
 		margin-top: 4rem;
 	}
 
-	.services h2 {
+	.skills h2 {
 		margin-bottom: 3rem;
 	}
 
