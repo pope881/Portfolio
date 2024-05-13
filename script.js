@@ -79,11 +79,31 @@ const typed = new Typed('.multiple-text', {
 	loop: true,
 })
 
-
 //GET FULL YEAR
 let copyrightText = document.querySelector('.copyright-text')
-console.log(copyrightText);
+// console.log(copyrightText)
 
-const newDate =  new Date().getFullYear()
-console.log(newDate);
-// copyrightText.textContent = 
+const newDate = new Date().getFullYear()
+// console.log(newDate)
+// copyrightText.textContent =
+
+//SEND EMAIL
+const btn = document.querySelector('#btn')
+const form = document.querySelector('#form')
+
+function SendMail() {
+	const params = {
+		from_name: document.getElementById('fullName').value,
+		email_id: document.getElementById('email_id').value,
+		message: document.getElementById('message').value,
+	}
+	if (params.from_name === '' || params.email_id === '' || params.message === '') {
+		return
+	}
+	console.log(params)
+	emailjs.send('service_ap01toq', 'template_m49pomc', params).then(function (res) {
+		alert('Success! Your email has been sent.')
+	})
+	form.reset()
+}
+btn.addEventListener('click', SendMail)
