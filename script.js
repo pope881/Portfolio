@@ -81,11 +81,11 @@ const typed = new Typed('.multiple-text', {
 
 //GET FULL YEAR
 let copyrightText = document.querySelector('.copyright-text')
-// console.log(copyrightText)
+console.log(copyrightText)
 
 const newDate = new Date().getFullYear()
-// console.log(newDate)
-// copyrightText.textContent =
+console.log(newDate)
+copyrightText.textContent = `Copyright © ${newDate} by Bartosz Papierz | All rights Reserved`
 
 //SEND EMAIL
 const btn = document.querySelector('#btn')

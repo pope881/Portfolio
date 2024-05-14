@@ -242,7 +242,7 @@ span {
 
 .skills-container .skills-box:hover {
 	border-color: var(--main-color);
-	transform: scale(1.1);
+	transform: scale(1.03);
 }
 
 .skills-box i {
