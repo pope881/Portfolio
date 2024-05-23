@@ -406,7 +406,7 @@ span {
 	padding: 0.8rem;
 	background: var(--main-color);
 	border-radius: 0.8rem;
-	transition: 0.5s ease;
+	transition: 0.3s ease;
 }
 
 .footer-iconTop a:hover {

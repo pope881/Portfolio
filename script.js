@@ -61,8 +61,6 @@ ScrollReveal({
 })
 
 // SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE
-// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE
-// SPRAWDZIC MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KURS MAJKA GDZIES MIAL ODNOSNIE MOBILE:FALSE
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' })
 ScrollReveal().reveal('.home-img, .skills-container, .portfolio-box, .contact form', { origin: 'bottom' })
