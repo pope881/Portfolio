@@ -3,7 +3,7 @@
   <p>A <b>Portfolio</b> Website showing my personality, skills and my projects using
                         such technologies as: HTML, CSS and JavaScript.</p>
 
-👉 Live Demo: <a href='https://ecommerce-shop4u.netlify.app/'>Live Demo</a>
+👉 Live Demo: <a href='https://main--portfolio-bartosz-papierz.netlify.app/' target="_blank">Live Demo</a>
 
 <h3>Build with:</h3>
 
